@@ -54,8 +54,41 @@ jobs:
           if (Test-Path $out) { Get-Content $out } else { Write-Host 'No smoke result file' }
           if ($app.ExitCode -ne 0) { throw "Smoke test failed with exit code $($app.ExitCode)" }
 
-      - name: Build installer and publish release
+      # 发布：先创建一个草稿 release（标题和说明来自 release-notes/<版本>.md），
+      # electron-builder 把安装程序、blockmap 和 latest.yml 都上传到这一个草稿中，最后再公开。
+      # （让 electron-builder 自己创建 release 时，并行上传可能创建出两个同名 release。）
+      - name: Create draft release
+        if: startsWith(github.ref, 'refs/tags/v')
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          $tag = '${{ github.ref_name }}'
+          $version = $tag.TrimStart('v')
+          $packageVersion = (Get-Content package.json -Raw | ConvertFrom-Json).version
+          if ($packageVersion -ne $version) { throw "Tag $tag does not match package.json version $packageVersion" }
+          $notes = "release-notes/$version.md"
+          if (-not (Test-Path $notes)) { throw "Missing release notes: $notes" }
+          gh release view $tag *> $null
+          if ($LASTEXITCODE -ne 0) {
+            gh release create $tag --draft --title "TaskBoard for Windows $version" --notes-file $notes
+          }
+
+      - name: Build installer and upload
         if: startsWith(github.ref, 'refs/tags/v')
         run: npx electron-builder --win --x64 --publish always
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Publish release
+        if: startsWith(github.ref, 'refs/tags/v')
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          $tag = '${{ github.ref_name }}'
+          $assets = gh release view $tag --json assets --jq '.assets[].name'
+          foreach ($required in @('latest.yml', '.exe', '.exe.blockmap')) {
+            if (-not ($assets | Where-Object { $_.EndsWith($required) })) { throw "Release is missing $required" }
+          }
+          gh release edit $tag --draft=false --latest

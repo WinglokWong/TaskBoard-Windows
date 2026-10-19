@@ -33,4 +33,5 @@ publish:
   provider: github
   owner: WinglokWong
   repo: TaskBoard-Windows
-  releaseType: release
+  # 由 CI 先创建草稿 release，上传完成后再公开（见 .github/workflows/build.yml）
+  releaseType: draft

@@ -89,7 +89,7 @@ The Windows installer can be built on Windows, or by the GitHub Actions workflow
 
 ## Releasing
 
-1. Bump `version` in `package.json` and commit.
+1. Bump `version` in `package.json`, write the release notes in `release-notes/<version>.md`, and commit.
 2. Tag and push:
 
    ```bash
@@ -100,7 +100,7 @@ The [Build workflow](.github/workflows/build.yml) then does the following on a W
 
 1. Type-checks, runs the tests and checks the translations.
 2. Packages the app and runs a smoke test of the packaged build: it renders, edits, undoes, saves and reloads, exports and re-imports, and backs up, all in a throwaway data folder.
-3. Builds the installer and publishes the GitHub release, including `latest.yml`, which the in-app updater reads.
+3. Creates a draft release with the notes from `release-notes/`, uploads the installer, its `.blockmap` and `latest.yml` (which the in-app updater reads), checks that all three are there, and then publishes the release.
 
 ## Translations
 
