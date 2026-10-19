@@ -1,0 +1,1250 @@
+{
+  "# 标题、- 列表、- [ ] 任务、**粗体**、*斜体*、`代码`、[链接](https://…)、> 引用、``` 代码块": {
+    "en": "# heading, - list, - [ ] task, **bold**, *italic*, `code`, [link](https://…), > quote, ``` code block",
+    "zh-Hant": "# 標題、- 列表、- [ ] 任務、**粗體**、*斜體*、`程式碼`、[連結](https://…)、> 引用、``` 程式碼區塊"
+  },
+  "%@ %@": {
+    "en": "%1$@ %2$@",
+    "zh-Hant": "%1$@ %2$@"
+  },
+  "%@ · %@": {
+    "en": "%1$@ · %2$@",
+    "zh-Hant": "%1$@ · %2$@"
+  },
+  "%@色标签": {
+    "en": "%@ label",
+    "zh-Hant": "%@色標籤"
+  },
+  "%@（导入）": {
+    "en": "%@ (Imported)",
+    "zh-Hant": "%@（匯入）"
+  },
+  "%lld": {
+    "en": "%lld",
+    "zh-Hant": "%lld"
+  },
+  "%lld 个看板 · %lld 张卡片": {
+    "en": "Boards: %1$lld · Cards: %2$lld",
+    "zh-Hant": "%1$lld 個看板 · %2$lld 張卡片"
+  },
+  "%lld.": {
+    "en": "%lld.",
+    "zh-Hant": "%lld."
+  },
+  "%lld/%lld": {
+    "en": "%1$lld/%2$lld",
+    "zh-Hant": "%1$lld/%2$lld"
+  },
+  "7 天内": {
+    "en": "Next 7 Days",
+    "zh-Hant": "7 天內"
+  },
+  "7 天内到期": {
+    "en": "Due in 7 Days",
+    "zh-Hant": "7 天內到期"
+  },
+  "D": {
+    "en": "D",
+    "zh-Hant": "D"
+  },
+  "Delete": {
+    "en": "Delete",
+    "zh-Hant": "Delete"
+  },
+  "Esc": {
+    "en": "Esc",
+    "zh-Hant": "Esc"
+  },
+  "N": {
+    "en": "N",
+    "zh-Hant": "N"
+  },
+  "Return": {
+    "en": "Return",
+    "zh-Hant": "Return"
+  },
+  "Space": {
+    "en": "Space",
+    "zh-Hant": "Space"
+  },
+  "•": {
+    "en": "•",
+    "zh-Hant": "•"
+  },
+  "• 点击卡片可编辑标题、内容、颜色和附件\n• 拖拽卡片可在列表之间移动\n• 点击左侧圆圈标记完成\n• 右键卡片可快速设置颜色、归档或删除\n• 误操作可以用 ⌘Z 撤销": {
+    "en": "• Click a card to edit its title, description, color and attachments\n• Drag cards between lists\n• Click the circle on the left to mark a card done\n• Right-click a card to set its color, archive or delete it\n• Made a mistake? Press ⌘Z to undo",
+    "zh-Hant": "• 點按卡片可編輯標題、內容、顏色和附件\n• 拖移卡片可在列表之間移動\n• 點按左側圓圈標記完成\n• 按右鍵可快速設定卡片顏色、封存或刪除\n• 操作錯誤可以用 ⌘Z 還原"
+  },
+  "↑ ↓ ← →": {
+    "en": "↑ ↓ ← →",
+    "zh-Hant": "↑ ↓ ← →"
+  },
+  "⇧⌘N": {
+    "en": "⇧⌘N",
+    "zh-Hant": "⇧⌘N"
+  },
+  "⌘Z / ⇧⌘Z": {
+    "en": "⌘Z / ⇧⌘Z",
+    "zh-Hant": "⌘Z / ⇧⌘Z"
+  },
+  "◦": {
+    "en": "◦",
+    "zh-Hant": "◦"
+  },
+  "不提醒": {
+    "en": "None",
+    "zh-Hant": "不提醒"
+  },
+  "不限": {
+    "en": "Any",
+    "zh-Hant": "不限"
+  },
+  "也可以在“系统设置 → 通用 → 语言与地区 → App”中为任务看板单独设置语言。": {
+    "en": "You can also set TaskBoard's language in System Settings → General → Language & Region → Applications.",
+    "zh-Hant": "也可以在「系統設定 → 一般 → 語言與地區 → App」中為任務看板單獨設定語言。"
+  },
+  "也可以把文件拖到这里": {
+    "en": "You can also drop files here",
+    "zh-Hant": "也可以把檔案拖移到這裡"
+  },
+  "今天": {
+    "en": "Today",
+    "zh-Hant": "今天"
+  },
+  "今天 %@": {
+    "en": "Today %@",
+    "zh-Hant": "今天 %@"
+  },
+  "今天到期": {
+    "en": "Due Today",
+    "zh-Hant": "今天到期"
+  },
+  "从备份恢复": {
+    "en": "Restore from Backup",
+    "zh-Hant": "從備份回復"
+  },
+  "从备份恢复…": {
+    "en": "Restore from Backup…",
+    "zh-Hant": "從備份回復…"
+  },
+  "从归档恢复": {
+    "en": "Restore from Archive",
+    "zh-Hant": "從封存回復"
+  },
+  "从源码运行时不提供自动更新。": {
+    "en": "Automatic updates aren't available when running from source.",
+    "zh-Hant": "從原始碼執行時不提供自動更新。"
+  },
+  "从这个备份恢复吗？": {
+    "en": "Restore from this backup?",
+    "zh-Hant": "要從這個備份回復嗎？"
+  },
+  "以后": {
+    "en": "Later",
+    "zh-Hant": "以後"
+  },
+  "任务看板": {
+    "en": "TaskBoard",
+    "zh-Hant": "任務看板"
+  },
+  "任务看板全部数据 %@": {
+    "en": "TaskBoard All Data %@",
+    "zh-Hant": "任務看板全部資料 %@"
+  },
+  "作为新看板添加": {
+    "en": "Add as New Boards",
+    "zh-Hant": "加入為新看板"
+  },
+  "保留备份": {
+    "en": "Keep Backups",
+    "zh-Hant": "保留備份"
+  },
+  "修改列表颜色": {
+    "en": "Change List Color",
+    "zh-Hant": "更改列表顏色"
+  },
+  "修改卡片标签": {
+    "en": "Change Card Labels",
+    "zh-Hant": "更改卡片標籤"
+  },
+  "修改卡片颜色": {
+    "en": "Change Card Color",
+    "zh-Hant": "更改卡片顏色"
+  },
+  "修改标签颜色": {
+    "en": "Change Label Color",
+    "zh-Hant": "更改標籤顏色"
+  },
+  "修改背景颜色": {
+    "en": "Change Background Color",
+    "zh-Hant": "更改背景顏色"
+  },
+  "修改自动归档设置": {
+    "en": "Change Auto-Archive Setting",
+    "zh-Hant": "更改自動封存設定"
+  },
+  "全部": {
+    "en": "All",
+    "zh-Hant": "全部"
+  },
+  "全部删除": {
+    "en": "Delete All",
+    "zh-Hant": "全部刪除"
+  },
+  "关闭": {
+    "en": "Off",
+    "zh-Hant": "關閉"
+  },
+  "列表中的卡片会被移入归档，可以稍后恢复。": {
+    "en": "Cards in this list will be moved to the archive. You can restore them later.",
+    "zh-Hant": "列表中的卡片會移到封存，之後可以回復。"
+  },
+  "列表名称": {
+    "en": "List Name",
+    "zh-Hant": "列表名稱"
+  },
+  "列表颜色": {
+    "en": "List Color",
+    "zh-Hant": "列表顏色"
+  },
+  "创建于 %@": {
+    "en": "Created %@",
+    "zh-Hant": "建立於 %@"
+  },
+  "删除": {
+    "en": "Delete",
+    "zh-Hant": "刪除"
+  },
+  "删除…": {
+    "en": "Delete…",
+    "zh-Hant": "刪除…"
+  },
+  "删除列表": {
+    "en": "Delete List",
+    "zh-Hant": "刪除列表"
+  },
+  "删除列表…": {
+    "en": "Delete List…",
+    "zh-Hant": "刪除列表…"
+  },
+  "删除卡片": {
+    "en": "Delete Card",
+    "zh-Hant": "刪除卡片"
+  },
+  "删除标签": {
+    "en": "Delete Label",
+    "zh-Hant": "刪除標籤"
+  },
+  "删除清单项": {
+    "en": "Delete Item",
+    "zh-Hant": "刪除清單項目"
+  },
+  "删除看板": {
+    "en": "Delete Board",
+    "zh-Hant": "刪除看板"
+  },
+  "删除看板…": {
+    "en": "Delete Board…",
+    "zh-Hant": "刪除看板…"
+  },
+  "删除这个标签吗？": {
+    "en": "Delete this label?",
+    "zh-Hant": "要刪除這個標籤嗎？"
+  },
+  "删除附件": {
+    "en": "Delete Attachment",
+    "zh-Hant": "刪除附件"
+  },
+  "到期时": {
+    "en": "At Due Time",
+    "zh-Hant": "到期時"
+  },
+  "前往看板": {
+    "en": "Go to Board",
+    "zh-Hant": "前往看板"
+  },
+  "包含 %lld 个看板、%lld 张卡片。“替换全部数据”会用文件内容取代当前所有看板，替换前会自动备份，也可以用 ⌘Z 撤销。": {
+    "en": "Boards: %1$lld, cards: %2$lld. “Replace All Data” replaces all current boards with the file's contents. Your data is backed up first, and you can undo with ⌘Z.",
+    "zh-Hant": "包含 %1$lld 個看板、%2$lld 張卡片。「取代全部資料」會用檔案內容取代目前所有看板，取代前會自動備份，也可以用 ⌘Z 還原。"
+  },
+  "卡片到期": {
+    "en": "Card Due",
+    "zh-Hant": "卡片到期"
+  },
+  "卡片及其附件将被永久删除。": {
+    "en": "The card and its attachments will be permanently deleted.",
+    "zh-Hant": "卡片及其附件將被永久刪除。"
+  },
+  "卡片标题": {
+    "en": "Card Title",
+    "zh-Hant": "卡片標題"
+  },
+  "卡片颜色": {
+    "en": "Card Color",
+    "zh-Hant": "卡片顏色"
+  },
+  "即将到期": {
+    "en": "Due Soon",
+    "zh-Hant": "即將到期"
+  },
+  "双击列表名称可以重命名": {
+    "en": "Double-click a list name to rename it",
+    "zh-Hant": "按兩下列表名稱即可重新命名"
+  },
+  "双击编辑": {
+    "en": "Double-click to edit",
+    "zh-Hant": "按兩下編輯"
+  },
+  "双击重命名，拖动调整顺序": {
+    "en": "Double-click to rename, drag to reorder",
+    "zh-Hant": "按兩下重新命名，拖移調整順序"
+  },
+  "取消": {
+    "en": "Cancel",
+    "zh-Hant": "取消"
+  },
+  "取消选择": {
+    "en": "Clear selection",
+    "zh-Hant": "取消選取"
+  },
+  "可以用 ⌘Z 撤销。如果只是暂时不需要，也可以选择归档。": {
+    "en": "You can undo with ⌘Z. If you just don't need it for now, consider archiving instead.",
+    "zh-Hant": "可以用 ⌘Z 還原。如果只是暫時不需要，也可以選擇封存。"
+  },
+  "右键卡片或在卡片详情中选择“归档”": {
+    "en": "Right-click a card or choose “Archive” in its details",
+    "zh-Hant": "在卡片上按右鍵，或在卡片詳細資訊中選擇「封存」"
+  },
+  "向右移动": {
+    "en": "Move Right",
+    "zh-Hant": "向右移動"
+  },
+  "向左移动": {
+    "en": "Move Left",
+    "zh-Hant": "向左移動"
+  },
+  "在 Finder 中显示": {
+    "en": "Show in Finder",
+    "zh-Hant": "在 Finder 中顯示"
+  },
+  "在 Finder 中显示数据文件夹": {
+    "en": "Show Data Folder in Finder",
+    "zh-Hant": "在 Finder 中顯示資料檔案夾"
+  },
+  "在卡片之间移动选择": {
+    "en": "Move the selection between cards",
+    "zh-Hant": "在卡片之間移動選取"
+  },
+  "在左侧选择或新建一个看板": {
+    "en": "Select or create a board on the left",
+    "zh-Hant": "在左側選擇或新增一個看板"
+  },
+  "在当前列表添加卡片": {
+    "en": "Add a card to the current list",
+    "zh-Hant": "在目前列表加入卡片"
+  },
+  "在看板上（没有正在输入文字时）可用。": {
+    "en": "Available on the board when you're not typing.",
+    "zh-Hant": "在看板上（沒有正在輸入文字時）可用。"
+  },
+  "墨": {
+    "en": "Navy",
+    "zh-Hant": "墨"
+  },
+  "备份": {
+    "en": "Backups",
+    "zh-Hant": "備份"
+  },
+  "天蓝": {
+    "en": "Sky",
+    "zh-Hant": "天藍"
+  },
+  "好": {
+    "en": "OK",
+    "zh-Hant": "好"
+  },
+  "完成": {
+    "en": "Done",
+    "zh-Hant": "完成"
+  },
+  "完成 1 天后": {
+    "en": "1 Day After Done",
+    "zh-Hant": "完成 1 天後"
+  },
+  "完成 3 天后": {
+    "en": "3 Days After Done",
+    "zh-Hant": "完成 3 天後"
+  },
+  "完成 30 天后": {
+    "en": "30 Days After Done",
+    "zh-Hant": "完成 30 天後"
+  },
+  "完成 7 天后": {
+    "en": "7 Days After Done",
+    "zh-Hant": "完成 7 天後"
+  },
+  "导入": {
+    "en": "Import",
+    "zh-Hant": "匯入"
+  },
+  "导入…": {
+    "en": "Import…",
+    "zh-Hant": "匯入…"
+  },
+  "导入与导出": {
+    "en": "Import & Export",
+    "zh-Hant": "匯入與匯出"
+  },
+  "导入全部数据": {
+    "en": "Import All Data",
+    "zh-Hant": "匯入全部資料"
+  },
+  "导入前": {
+    "en": "Before Import",
+    "zh-Hant": "匯入前"
+  },
+  "导入完成": {
+    "en": "Import Complete",
+    "zh-Hant": "匯入完成"
+  },
+  "导入看板": {
+    "en": "Import Board",
+    "zh-Hant": "匯入看板"
+  },
+  "导入看板「%@」？": {
+    "en": "Import board “%@”?",
+    "zh-Hant": "要匯入看板「%@」嗎？"
+  },
+  "导出全部数据…": {
+    "en": "Export All Data…",
+    "zh-Hant": "匯出全部資料…"
+  },
+  "导出失败": {
+    "en": "Export Failed",
+    "zh-Hant": "匯出失敗"
+  },
+  "导出完成": {
+    "en": "Export Complete",
+    "zh-Hant": "匯出完成"
+  },
+  "导出当前看板…": {
+    "en": "Export Current Board…",
+    "zh-Hant": "匯出目前看板…"
+  },
+  "导出的 .taskboard 文件包含看板和附件，可以在另一台 Mac 上导入。单个看板可以在看板的设置菜单中导出。": {
+    "en": "Exported .taskboard files contain boards and attachments and can be imported on another Mac. To export a single board, use the board's settings menu.",
+    "zh-Hant": "匯出的 .taskboard 檔案包含看板和附件，可以在另一台 Mac 上匯入。單一看板可以在看板的設定選單中匯出。"
+  },
+  "导出看板…": {
+    "en": "Export Board…",
+    "zh-Hant": "匯出看板…"
+  },
+  "封面": {
+    "en": "Cover",
+    "zh-Hant": "封面"
+  },
+  "将作为新看板加入，现有看板不受影响。包含 %lld 张卡片。": {
+    "en": {
+      "one": "It will be added as a new board; existing boards aren't affected. Contains %lld card.",
+      "other": "It will be added as a new board; existing boards aren't affected. Contains %lld cards."
+    },
+    "zh-Hant": "將加入為新看板，現有看板不受影響。包含 %lld 張卡片。"
+  },
+  "已保存到「%@」。": {
+    "en": "Saved as “%@”.",
+    "zh-Hant": "已儲存為「%@」。"
+  },
+  "已删除的列表": {
+    "en": "Deleted list",
+    "zh-Hant": "已刪除的列表"
+  },
+  "已完成": {
+    "en": "Done",
+    "zh-Hant": "已完成"
+  },
+  "已导入 %lld 个看板、%lld 张卡片、%lld 个附件。": {
+    "en": "Imported boards: %1$lld, cards: %2$lld, attachments: %3$lld.",
+    "zh-Hant": "已匯入 %1$lld 個看板、%2$lld 張卡片、%3$lld 個附件。"
+  },
+  "已开启自动归档：完成 %lld 天后": {
+    "en": {
+      "one": "Auto-archive on: %lld day after done",
+      "other": "Auto-archive on: %lld days after done"
+    },
+    "zh-Hant": "已開啟自動封存：完成 %lld 天後"
+  },
+  "已归档": {
+    "en": "Archived",
+    "zh-Hant": "已封存"
+  },
+  "已归档的卡片": {
+    "en": "Archived Cards",
+    "zh-Hant": "已封存的卡片"
+  },
+  "已过期": {
+    "en": "Overdue",
+    "zh-Hant": "已逾期"
+  },
+  "已过期和今天到期的未完成卡片数": {
+    "en": "Open cards that are overdue or due today",
+    "zh-Hant": "已逾期和今天到期的未完成卡片數"
+  },
+  "应用每天会自动备份一次，也可以点击“立即备份”": {
+    "en": "The app backs up once a day. You can also click “Back Up Now”.",
+    "zh-Hant": "App 每天會自動備份一次，也可以點按「立即備份」"
+  },
+  "归档": {
+    "en": "Archive",
+    "zh-Hant": "封存"
+  },
+  "归档 (%lld)": {
+    "en": "Archive (%lld)",
+    "zh-Hant": "封存 (%lld)"
+  },
+  "归档全部卡片": {
+    "en": "Archive All Cards",
+    "zh-Hant": "封存全部卡片"
+  },
+  "归档卡片": {
+    "en": "Archive Card",
+    "zh-Hant": "封存卡片"
+  },
+  "归档已完成的卡片": {
+    "en": "Archive Done Cards",
+    "zh-Hant": "封存已完成的卡片"
+  },
+  "归档本列全部卡片": {
+    "en": "Archive All Cards in List",
+    "zh-Hant": "封存此列表全部卡片"
+  },
+  "归档本列已完成的卡片": {
+    "en": "Archive Done Cards in List",
+    "zh-Hant": "封存此列表已完成的卡片"
+  },
+  "归档选中的卡片": {
+    "en": "Archive the selected card",
+    "zh-Hant": "封存選取的卡片"
+  },
+  "当前数据会先自动备份，恢复后也可以用 ⌘Z 撤销。": {
+    "en": "Your current data is backed up first, and you can undo the restore with ⌘Z.",
+    "zh-Hant": "目前的資料會先自動備份，回復後也可以用 ⌘Z 還原。"
+  },
+  "当前版本": {
+    "en": "Version",
+    "zh-Hant": "目前版本"
+  },
+  "待办": {
+    "en": "To Do",
+    "zh-Hant": "待辦"
+  },
+  "快速查看": {
+    "en": "Quick Look",
+    "zh-Hant": "快速查看"
+  },
+  "恢复": {
+    "en": "Restore",
+    "zh-Hant": "回復"
+  },
+  "恢复…": {
+    "en": "Restore…",
+    "zh-Hant": "回復…"
+  },
+  "恢复前": {
+    "en": "Before Restore",
+    "zh-Hant": "回復前"
+  },
+  "恢复卡片": {
+    "en": "Restore Card",
+    "zh-Hant": "回復卡片"
+  },
+  "恢复失败": {
+    "en": "Restore Failed",
+    "zh-Hant": "回復失敗"
+  },
+  "我的看板": {
+    "en": "My Board",
+    "zh-Hant": "我的看板"
+  },
+  "截止日期": {
+    "en": "Due Date",
+    "zh-Hant": "截止日期"
+  },
+  "截止时间：%@ · %@": {
+    "en": "Due %1$@ · %2$@",
+    "zh-Hant": "截止時間：%1$@ · %2$@"
+  },
+  "所在列表": {
+    "en": "List",
+    "zh-Hant": "所在列表"
+  },
+  "所有归档卡片及其附件将被永久删除。": {
+    "en": "All archived cards and their attachments will be permanently deleted.",
+    "zh-Hant": "所有封存的卡片及其附件將被永久刪除。"
+  },
+  "手动": {
+    "en": "Manual",
+    "zh-Hant": "手動"
+  },
+  "打开": {
+    "en": "Open",
+    "zh-Hant": "打開"
+  },
+  "打开系统设置": {
+    "en": "Open System Settings",
+    "zh-Hant": "打開系統設定"
+  },
+  "打开选中的卡片": {
+    "en": "Open the selected card",
+    "zh-Hant": "打開選取的卡片"
+  },
+  "拖动调整列表顺序": {
+    "en": "Drag to reorder lists",
+    "zh-Hant": "拖移調整列表順序"
+  },
+  "按标签、状态或截止日期筛选卡片": {
+    "en": "Filter cards by label, status or due date",
+    "zh-Hant": "依標籤、狀態或截止日期篩選卡片"
+  },
+  "描述": {
+    "en": "Description",
+    "zh-Hant": "描述"
+  },
+  "提前 1 天": {
+    "en": "1 Day Before",
+    "zh-Hant": "提前 1 天"
+  },
+  "提前 1 小时": {
+    "en": "1 Hour Before",
+    "zh-Hant": "提前 1 小時"
+  },
+  "提前 15 分钟": {
+    "en": "15 Minutes Before",
+    "zh-Hant": "提前 15 分鐘"
+  },
+  "提醒": {
+    "en": "Reminder",
+    "zh-Hant": "提醒"
+  },
+  "搜索卡片": {
+    "en": "Search Cards",
+    "zh-Hant": "搜尋卡片"
+  },
+  "搜索归档": {
+    "en": "Search Archive",
+    "zh-Hant": "搜尋封存"
+  },
+  "搜索：%@": {
+    "en": "Search: %@",
+    "zh-Hant": "搜尋：%@"
+  },
+  "撤销 / 重做": {
+    "en": "Undo / Redo",
+    "zh-Hant": "還原 / 重做"
+  },
+  "支持 Markdown": {
+    "en": "Markdown supported",
+    "zh-Hant": "支援 Markdown"
+  },
+  "数据": {
+    "en": "Data",
+    "zh-Hant": "資料"
+  },
+  "数据位置": {
+    "en": "Data Location",
+    "zh-Hant": "資料位置"
+  },
+  "数据文件无法读取，已创建新的示例看板。原文件已保存为备份「%@」，可以在“文件 → 从备份恢复”中查看。": {
+    "en": "The data file couldn't be read, so a new sample board was created. The original file was kept as the backup “%@”. You can find it under File → Restore from Backup.",
+    "zh-Hant": "無法讀取資料檔案，已建立新的範例看板。原檔案已儲存為備份「%@」，可以在「檔案 → 從備份回復」中查看。"
+  },
+  "数据读取失败": {
+    "en": "Couldn't Read Data",
+    "zh-Hant": "資料讀取失敗"
+  },
+  "文件中包含不安全的路径，已拒绝导入。": {
+    "en": "The file contains unsafe paths and was not imported.",
+    "zh-Hant": "檔案中包含不安全的路徑，已拒絕匯入。"
+  },
+  "文件已损坏或内容不完整。": {
+    "en": "The file is damaged or incomplete.",
+    "zh-Hant": "檔案已損毀或內容不完整。"
+  },
+  "新建标签": {
+    "en": "New Label",
+    "zh-Hant": "新增標籤"
+  },
+  "新建看板": {
+    "en": "New Board",
+    "zh-Hant": "新增看板"
+  },
+  "新截止日期的默认值": {
+    "en": "Defaults for New Due Dates",
+    "zh-Hant": "新截止日期的預設值"
+  },
+  "新看板": {
+    "en": "New Board",
+    "zh-Hant": "新看板"
+  },
+  "无法写入导出文件。": {
+    "en": "Couldn't write the export file.",
+    "zh-Hant": "無法寫入匯出檔案。"
+  },
+  "无法导入": {
+    "en": "Couldn't Import",
+    "zh-Hant": "無法匯入"
+  },
+  "无法读取": {
+    "en": "Unreadable",
+    "zh-Hant": "無法讀取"
+  },
+  "无法读取的原文件": {
+    "en": "Unreadable Original",
+    "zh-Hant": "無法讀取的原檔案"
+  },
+  "明天": {
+    "en": "Tomorrow",
+    "zh-Hant": "明天"
+  },
+  "明天 %@": {
+    "en": "Tomorrow %@",
+    "zh-Hant": "明天 %@"
+  },
+  "昨天 %@": {
+    "en": "Yesterday %@",
+    "zh-Hant": "昨天 %@"
+  },
+  "显示 %lld / %lld 张卡片": {
+    "en": "Showing %1$lld of %2$lld cards",
+    "zh-Hant": "顯示 %1$lld / %2$lld 張卡片"
+  },
+  "显示已完成": {
+    "en": "Show Done",
+    "zh-Hant": "顯示已完成"
+  },
+  "显示已完成的卡片": {
+    "en": "Show Done Cards",
+    "zh-Hant": "顯示已完成的卡片"
+  },
+  "暂无附件": {
+    "en": "No attachments",
+    "zh-Hant": "尚無附件"
+  },
+  "更新": {
+    "en": "Updates",
+    "zh-Hant": "更新"
+  },
+  "替换全部数据": {
+    "en": "Replace All Data",
+    "zh-Hant": "取代全部資料"
+  },
+  "最近 %lld 份": {
+    "en": "Latest %lld",
+    "zh-Hant": "最近 %lld 份"
+  },
+  "有 %lld 个附件在文件中缺失，已跳过。": {
+    "en": {
+      "one": "%lld attachment was missing from the file and was skipped.",
+      "other": "%lld attachments were missing from the file and were skipped."
+    },
+    "zh-Hant": "有 %lld 個附件在檔案中缺失，已略過。"
+  },
+  "有 %lld 张已完成的卡片设置了截止日期，已被隐藏。": {
+    "en": {
+      "one": "%lld done card with a due date is hidden.",
+      "other": "%lld done cards with due dates are hidden."
+    },
+    "zh-Hant": "有 %lld 張已完成的卡片設定了截止日期，已被隱藏。"
+  },
+  "有描述": {
+    "en": "Has description",
+    "zh-Hant": "有描述"
+  },
+  "未命名标签": {
+    "en": "Untitled label",
+    "zh-Hant": "未命名標籤"
+  },
+  "未完成": {
+    "en": "Open",
+    "zh-Hant": "未完成"
+  },
+  "来自「%@」· 归档于 %@": {
+    "en": "From “%1$@” · archived %2$@",
+    "zh-Hant": "來自「%1$@」· 封存於 %2$@"
+  },
+  "查看已归档的卡片": {
+    "en": "View archived cards",
+    "zh-Hant": "查看已封存的卡片"
+  },
+  "标签": {
+    "en": "Labels",
+    "zh-Hant": "標籤"
+  },
+  "标签会从这个看板的所有卡片上移除。": {
+    "en": "The label will be removed from every card on this board.",
+    "zh-Hant": "標籤會從這個看板的所有卡片上移除。"
+  },
+  "标签名称（可留空）": {
+    "en": "Label name (optional)",
+    "zh-Hant": "標籤名稱（可留空）"
+  },
+  "标签（满足任意一个）": {
+    "en": "Labels (match any)",
+    "zh-Hant": "標籤（符合任一個）"
+  },
+  "标记为已完成": {
+    "en": "Mark as Done",
+    "zh-Hant": "標示為已完成"
+  },
+  "标记为未完成": {
+    "en": "Mark as Not Done",
+    "zh-Hant": "標示為未完成"
+  },
+  "标记完成 / 未完成": {
+    "en": "Toggle done",
+    "zh-Hant": "標示完成 / 未完成"
+  },
+  "检查更新…": {
+    "en": "Check for Updates…",
+    "zh-Hant": "檢查更新項目…"
+  },
+  "橙": {
+    "en": "Orange",
+    "zh-Hant": "橙"
+  },
+  "欢迎使用任务看板 👋": {
+    "en": "Welcome to TaskBoard 👋",
+    "zh-Hant": "歡迎使用任務看板 👋"
+  },
+  "每天自动备份一次，保留最近 %lld 份": {
+    "en": "Backed up daily; the latest %lld are kept",
+    "zh-Hant": "每天自動備份一次，保留最近 %lld 份"
+  },
+  "永久删除": {
+    "en": "Delete permanently",
+    "zh-Hant": "永久刪除"
+  },
+  "没有匹配的卡片": {
+    "en": "No Matching Cards",
+    "zh-Hant": "沒有符合的卡片"
+  },
+  "没有归档的卡片": {
+    "en": "No Archived Cards",
+    "zh-Hant": "沒有封存的卡片"
+  },
+  "没有待完成的到期卡片": {
+    "en": "No Open Cards with Due Dates",
+    "zh-Hant": "沒有待完成的到期卡片"
+  },
+  "没有截止日期": {
+    "en": "No Due Date",
+    "zh-Hant": "沒有截止日期"
+  },
+  "没有选中的看板": {
+    "en": "No Board Selected",
+    "zh-Hant": "沒有選取的看板"
+  },
+  "浅橙": {
+    "en": "Light Orange",
+    "zh-Hant": "淺橙"
+  },
+  "浅灰": {
+    "en": "Light Gray",
+    "zh-Hant": "淺灰"
+  },
+  "浅紫": {
+    "en": "Light Purple",
+    "zh-Hant": "淺紫"
+  },
+  "浅红": {
+    "en": "Light Red",
+    "zh-Hant": "淺紅"
+  },
+  "浅绿": {
+    "en": "Light Green",
+    "zh-Hant": "淺綠"
+  },
+  "浅蓝": {
+    "en": "Light Blue",
+    "zh-Hant": "淺藍"
+  },
+  "浅黄": {
+    "en": "Light Yellow",
+    "zh-Hant": "淺黃"
+  },
+  "深橙": {
+    "en": "Dark Orange",
+    "zh-Hant": "深橙"
+  },
+  "深紫": {
+    "en": "Dark Purple",
+    "zh-Hant": "深紫"
+  },
+  "深红": {
+    "en": "Dark Red",
+    "zh-Hant": "深紅"
+  },
+  "深绿": {
+    "en": "Dark Green",
+    "zh-Hant": "深綠"
+  },
+  "深蓝": {
+    "en": "Dark Blue",
+    "zh-Hant": "深藍"
+  },
+  "深黄": {
+    "en": "Dark Yellow",
+    "zh-Hant": "深黃"
+  },
+  "添加": {
+    "en": "Add",
+    "zh-Hant": "加入"
+  },
+  "添加列表": {
+    "en": "Add List",
+    "zh-Hant": "加入列表"
+  },
+  "添加卡片": {
+    "en": "Add Card",
+    "zh-Hant": "加入卡片"
+  },
+  "添加截止日期": {
+    "en": "Add Due Date",
+    "zh-Hant": "加入截止日期"
+  },
+  "添加文件…": {
+    "en": "Add Files…",
+    "zh-Hant": "加入檔案…"
+  },
+  "添加标签": {
+    "en": "Add Label",
+    "zh-Hant": "加入標籤"
+  },
+  "添加清单项，回车确认": {
+    "en": "Add an item, press Return",
+    "zh-Hant": "加入清單項目，按 Return 確認"
+  },
+  "清单": {
+    "en": "Checklist",
+    "zh-Hant": "清單"
+  },
+  "清单进度": {
+    "en": "Checklist progress",
+    "zh-Hant": "清單進度"
+  },
+  "清单项": {
+    "en": "Item",
+    "zh-Hant": "清單項目"
+  },
+  "清空归档": {
+    "en": "Empty Archive",
+    "zh-Hant": "清空封存"
+  },
+  "清空归档…": {
+    "en": "Empty Archive…",
+    "zh-Hant": "清空封存…"
+  },
+  "清除": {
+    "en": "Clear",
+    "zh-Hant": "清除"
+  },
+  "清除筛选": {
+    "en": "Clear Filters",
+    "zh-Hant": "清除篩選"
+  },
+  "灰": {
+    "en": "Gray",
+    "zh-Hant": "灰"
+  },
+  "点击工具栏的调色板修改背景颜色": {
+    "en": "Click the palette in the toolbar to change the background color",
+    "zh-Hant": "點按工具列的調色盤更改背景顏色"
+  },
+  "点击快速查看：%@": {
+    "en": "Click to Quick Look: %@",
+    "zh-Hant": "點按以快速查看：%@"
+  },
+  "状态": {
+    "en": "Status",
+    "zh-Hant": "狀態"
+  },
+  "用 Quick Look 预览卡片附件": {
+    "en": "Quick Look the card's attachments",
+    "zh-Hant": "用 Quick Look 預覽卡片附件"
+  },
+  "用默认应用打开": {
+    "en": "Open with Default App",
+    "zh-Hant": "用預設 App 打開"
+  },
+  "界面语言": {
+    "en": "Language",
+    "zh-Hant": "介面語言"
+  },
+  "白": {
+    "en": "White",
+    "zh-Hant": "白"
+  },
+  "看板": {
+    "en": "Boards",
+    "zh-Hant": "看板"
+  },
+  "看板中的所有卡片和附件（包括归档）都会被永久删除。": {
+    "en": "All cards and attachments on this board, including archived ones, will be permanently deleted.",
+    "zh-Hant": "看板中的所有卡片和附件（包括封存的）都會被永久刪除。"
+  },
+  "看板名称": {
+    "en": "Board Name",
+    "zh-Hant": "看板名稱"
+  },
+  "看板背景": {
+    "en": "Board Background",
+    "zh-Hant": "看板背景"
+  },
+  "看板设置": {
+    "en": "Board Settings",
+    "zh-Hant": "看板設定"
+  },
+  "确定": {
+    "en": "OK",
+    "zh-Hant": "確定"
+  },
+  "确定删除列表「%@」吗？": {
+    "en": "Delete list “%@”?",
+    "zh-Hant": "確定要刪除列表「%@」嗎？"
+  },
+  "确定删除卡片「%@」吗？": {
+    "en": "Delete card “%@”?",
+    "zh-Hant": "確定要刪除卡片「%@」嗎？"
+  },
+  "确定删除看板「%@」吗？": {
+    "en": "Delete board “%@”?",
+    "zh-Hant": "確定要刪除看板「%@」嗎？"
+  },
+  "确定删除这张卡片吗？": {
+    "en": "Delete this card?",
+    "zh-Hant": "確定要刪除這張卡片嗎？"
+  },
+  "确定永久删除「%@」吗？": {
+    "en": "Permanently delete “%@”?",
+    "zh-Hant": "確定要永久刪除「%@」嗎？"
+  },
+  "确定清空所有归档卡片吗？": {
+    "en": "Delete all archived cards?",
+    "zh-Hant": "確定要清空所有封存的卡片嗎？"
+  },
+  "移动列表": {
+    "en": "Move List",
+    "zh-Hant": "移動列表"
+  },
+  "移动到": {
+    "en": "Move To",
+    "zh-Hant": "移動到"
+  },
+  "移动卡片": {
+    "en": "Move Card",
+    "zh-Hant": "移動卡片"
+  },
+  "移除": {
+    "en": "Remove",
+    "zh-Hant": "移除"
+  },
+  "立即保存": {
+    "en": "Save Now",
+    "zh-Hant": "立即儲存"
+  },
+  "立即备份": {
+    "en": "Back Up Now",
+    "zh-Hant": "立即備份"
+  },
+  "立即检查更新": {
+    "en": "Check Now",
+    "zh-Hant": "立即檢查更新"
+  },
+  "立即重新启动": {
+    "en": "Relaunch Now",
+    "zh-Hant": "立即重新啟動"
+  },
+  "筛选": {
+    "en": "Filter",
+    "zh-Hant": "篩選"
+  },
+  "筛选 (%lld)": {
+    "en": "Filter (%lld)",
+    "zh-Hant": "篩選 (%lld)"
+  },
+  "粉": {
+    "en": "Pink",
+    "zh-Hant": "粉"
+  },
+  "粘贴图片": {
+    "en": "Paste Image",
+    "zh-Hant": "貼上影像"
+  },
+  "粘贴的图片 %@": {
+    "en": "Pasted Image %@",
+    "zh-Hant": "貼上的影像 %@"
+  },
+  "紫": {
+    "en": "Purple",
+    "zh-Hant": "紫"
+  },
+  "红": {
+    "en": "Red",
+    "zh-Hant": "紅"
+  },
+  "给卡片设置截止日期后，未完成的卡片会在这里按时间汇总显示。": {
+    "en": "Once cards have due dates, open ones are collected here by date.",
+    "zh-Hant": "為卡片設定截止日期後，未完成的卡片會在這裡依時間彙整顯示。"
+  },
+  "绿": {
+    "en": "Green",
+    "zh-Hant": "綠"
+  },
+  "编辑": {
+    "en": "Edit",
+    "zh-Hant": "編輯"
+  },
+  "编辑卡片": {
+    "en": "Edit Card",
+    "zh-Hant": "編輯卡片"
+  },
+  "编辑标签": {
+    "en": "Edit Label",
+    "zh-Hant": "編輯標籤"
+  },
+  "背景颜色": {
+    "en": "Background Color",
+    "zh-Hant": "背景顏色"
+  },
+  "自动归档已完成的卡片": {
+    "en": "Auto-Archive Done Cards",
+    "zh-Hant": "自動封存已完成的卡片"
+  },
+  "自动检查更新": {
+    "en": "Automatically Check for Updates",
+    "zh-Hant": "自動檢查更新項目"
+  },
+  "自定义颜色": {
+    "en": "Custom Color",
+    "zh-Hant": "自訂顏色"
+  },
+  "蓝": {
+    "en": "Blue",
+    "zh-Hant": "藍"
+  },
+  "设为封面": {
+    "en": "Set as Cover",
+    "zh-Hant": "設為封面"
+  },
+  "试试给卡片添加一张图片附件": {
+    "en": "Try adding an image attachment to a card",
+    "zh-Hant": "試試為卡片加入一張影像附件"
+  },
+  "跟随系统": {
+    "en": "System Default",
+    "zh-Hant": "跟隨系統"
+  },
+  "输入列表名称": {
+    "en": "List name",
+    "zh-Hant": "輸入列表名稱"
+  },
+  "输入卡片标题，回车添加": {
+    "en": "Card title, press Return to add",
+    "zh-Hant": "輸入卡片標題，按 Return 加入"
+  },
+  "还没有备份": {
+    "en": "No Backups Yet",
+    "zh-Hant": "還沒有備份"
+  },
+  "这不是任务看板的导出文件。": {
+    "en": "This isn't a TaskBoard export file.",
+    "zh-Hant": "這不是任務看板的匯出檔案。"
+  },
+  "这个备份文件无法读取。": {
+    "en": "This backup file can't be read.",
+    "zh-Hant": "無法讀取這個備份檔案。"
+  },
+  "这个文件来自更新版本的任务看板（格式版本 %lld），请先更新应用。": {
+    "en": "This file comes from a newer version of TaskBoard (format version %lld). Please update the app first.",
+    "zh-Hant": "這個檔案來自較新版本的任務看板（格式版本 %lld），請先更新 App。"
+  },
+  "这个看板还没有标签": {
+    "en": "This board has no labels yet",
+    "zh-Hant": "這個看板還沒有標籤"
+  },
+  "进行中": {
+    "en": "In Progress",
+    "zh-Hant": "進行中"
+  },
+  "选中卡片": {
+    "en": "Select a card",
+    "zh-Hant": "選取卡片"
+  },
+  "选择要导入的 .taskboard 文件": {
+    "en": "Choose a .taskboard file to import",
+    "zh-Hant": "選擇要匯入的 .taskboard 檔案"
+  },
+  "通用": {
+    "en": "General",
+    "zh-Hant": "一般"
+  },
+  "通知权限已关闭，到期时不会收到提醒。": {
+    "en": "Notifications are turned off, so you won't get reminders.",
+    "zh-Hant": "通知權限已關閉，到期時不會收到提醒。"
+  },
+  "重命名": {
+    "en": "Rename",
+    "zh-Hant": "重新命名"
+  },
+  "重命名…": {
+    "en": "Rename…",
+    "zh-Hant": "重新命名…"
+  },
+  "重命名列表": {
+    "en": "Rename List",
+    "zh-Hant": "重新命名列表"
+  },
+  "重命名标签": {
+    "en": "Rename Label",
+    "zh-Hant": "重新命名標籤"
+  },
+  "重命名看板": {
+    "en": "Rename Board",
+    "zh-Hant": "重新命名看板"
+  },
+  "重新启动后生效。": {
+    "en": "Takes effect after relaunching.",
+    "zh-Hant": "重新啟動後生效。"
+  },
+  "键盘快捷键": {
+    "en": "Keyboard Shortcuts",
+    "zh-Hant": "鍵盤快速鍵"
+  },
+  "附件": {
+    "en": "Attachments",
+    "zh-Hant": "附件"
+  },
+  "颜色": {
+    "en": "Color",
+    "zh-Hant": "顏色"
+  },
+  "黄": {
+    "en": "Yellow",
+    "zh-Hant": "黃"
+  },
+  "默认": {
+    "en": "Default",
+    "zh-Hant": "預設"
+  },
+  "默认提醒": {
+    "en": "Default Reminder",
+    "zh-Hant": "預設提醒"
+  },
+  "默认时间": {
+    "en": "Default Time",
+    "zh-Hant": "預設時間"
+  },
+  "鼠标悬停": {
+    "en": "Hover",
+    "zh-Hant": "滑鼠停留"
+  }
+}

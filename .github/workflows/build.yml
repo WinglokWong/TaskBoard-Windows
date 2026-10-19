@@ -1,0 +1,61 @@
+name: Build
+
+# 每次推送：类型检查、单元测试、翻译检查，并在真实的 Windows 环境中打包应用、运行冒烟测试。
+# 推送 v* 标签时：测试通过后构建安装程序并发布到 GitHub Releases（应用内自动更新从这里获取）。
+on:
+  push:
+    branches: [main]
+    tags: ['v*']
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  windows:
+    runs-on: windows-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Type check
+        run: npm run typecheck
+
+      - name: Unit tests (including Mac compatibility)
+        run: npm test
+
+      - name: Translations complete
+        run: npm run check-strings
+
+      - name: Build
+        run: npm run build
+
+      - name: Package (unpacked) for the smoke test
+        run: npx electron-builder --win --x64 --dir --publish never
+
+      - name: Smoke test the packaged app on Windows
+        shell: pwsh
+        run: |
+          $out = Join-Path $env:RUNNER_TEMP 'smoke.txt'
+          $app = Start-Process -FilePath 'release\win-unpacked\TaskBoard.exe' -ArgumentList '--smoke-test', "--smoke-out=$out" -PassThru
+          if (-not $app.WaitForExit(180000)) {
+            Stop-Process -Id $app.Id -Force
+            throw 'Smoke test timed out'
+          }
+          if (Test-Path $out) { Get-Content $out } else { Write-Host 'No smoke result file' }
+          if ($app.ExitCode -ne 0) { throw "Smoke test failed with exit code $($app.ExitCode)" }
+
+      - name: Build installer and publish release
+        if: startsWith(github.ref, 'refs/tags/v')
+        run: npx electron-builder --win --x64 --publish always
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

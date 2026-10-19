@@ -1,0 +1,36 @@
+appId: com.winglok.taskboard
+productName: TaskBoard
+copyright: Copyright © 2026 Winglok
+directories:
+  output: release
+  buildResources: build
+files:
+  - out/**
+  - resources/**
+  - package.json
+asarUnpack:
+  - resources/**
+win:
+  target:
+    - target: nsis
+      arch: [x64]
+  icon: build/icon.png
+  artifactName: TaskBoard-Setup-${version}.${ext}
+nsis:
+  oneClick: false
+  perMachine: false
+  allowToChangeInstallationDirectory: true
+  createDesktopShortcut: true
+  createStartMenuShortcut: true
+  shortcutName: TaskBoard
+  deleteAppDataOnUninstall: false
+fileAssociations:
+  - ext: taskboard
+    name: TaskBoard Export
+    description: TaskBoard Export
+    role: Editor
+publish:
+  provider: github
+  owner: WinglokWong
+  repo: TaskBoard-Windows
+  releaseType: release

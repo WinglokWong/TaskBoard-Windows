@@ -1,0 +1,114 @@
+{
+  "不透明度": {
+    "en": "Opacity",
+    "zh-Hant": "不透明度"
+  },
+  "任务看板仍在通知区域运行，以便按时提醒。可以在设置中更改。": {
+    "en": "TaskBoard is still running in the notification area so reminders arrive on time. You can change this in Settings.",
+    "zh-Hant": "任務看板仍在通知區域執行，以便準時提醒。可以在設定中更改。"
+  },
+  "关闭窗口后继续在通知区域运行": {
+    "en": "Keep running in the notification area when the window is closed",
+    "zh-Hant": "關閉視窗後繼續在通知區域執行"
+  },
+  "剪贴板中没有图片": {
+    "en": "There's no image on the clipboard",
+    "zh-Hant": "剪貼簿中沒有影像"
+  },
+  "双击重命名": {
+    "en": "Double-click to rename",
+    "zh-Hant": "按兩下重新命名"
+  },
+  "发现新版本 %@，正在下载…": {
+    "en": "Version %@ is available. Downloading…",
+    "zh-Hant": "發現新版本 %@，正在下載…"
+  },
+  "可以用 Ctrl+Z 撤销。": {
+    "en": "You can undo with Ctrl+Z.",
+    "zh-Hant": "可以用 Ctrl+Z 還原。"
+  },
+  "在资源管理器中显示": {
+    "en": "Show in File Explorer",
+    "zh-Hant": "在檔案總管中顯示"
+  },
+  "在资源管理器中显示数据文件夹": {
+    "en": "Show Data Folder in File Explorer",
+    "zh-Hant": "在檔案總管中顯示資料檔案夾"
+  },
+  "已创建备份": {
+    "en": "Backup created",
+    "zh-Hant": "已建立備份"
+  },
+  "已撤销：%@": {
+    "en": "Undone: %@",
+    "zh-Hant": "已還原：%@"
+  },
+  "已是最新版本": {
+    "en": "TaskBoard is up to date.",
+    "zh-Hant": "已是最新版本"
+  },
+  "已重做：%@": {
+    "en": "Redone: %@",
+    "zh-Hant": "已重做：%@"
+  },
+  "应用运行时才能按时发送截止日期提醒。": {
+    "en": "Due-date reminders are only sent while the app is running.",
+    "zh-Hant": "App 執行時才能準時傳送截止日期提醒。"
+  },
+  "打开任务看板": {
+    "en": "Open TaskBoard",
+    "zh-Hant": "打開任務看板"
+  },
+  "撤销": {
+    "en": "Undo",
+    "zh-Hant": "還原"
+  },
+  "数据文件无法读取，已创建新的示例看板。原文件已保存为备份「%@」，可以在侧边栏的 ⋯ 菜单中选择“从备份恢复”查看。": {
+    "en": "The data file couldn't be read, so a new sample board was created. The original file was kept as the backup “%@”. You can find it in the sidebar's ⋯ menu under Restore from Backup.",
+    "zh-Hant": "無法讀取資料檔案，已建立新的範例看板。原檔案已儲存為備份「%@」，可以在側邊欄的 ⋯ 選單中選擇「從備份回復」查看。"
+  },
+  "新版本 %@ 已下载，点击重新启动以完成更新": {
+    "en": "Version %@ is ready. Click to restart and update.",
+    "zh-Hant": "新版本 %@ 已下載，點按以重新啟動並完成更新"
+  },
+  "更多": {
+    "en": "More",
+    "zh-Hant": "更多"
+  },
+  "检查更新失败：%@": {
+    "en": "Couldn't check for updates: %@",
+    "zh-Hant": "檢查更新失敗：%@"
+  },
+  "正在下载更新… %lld%": {
+    "en": "Downloading update… %lld%",
+    "zh-Hant": "正在下載更新… %lld%"
+  },
+  "正在检查更新…": {
+    "en": "Checking for updates…",
+    "zh-Hant": "正在檢查更新…"
+  },
+  "电脑": {
+    "en": "computer",
+    "zh-Hant": "電腦"
+  },
+  "设置": {
+    "en": "Settings",
+    "zh-Hant": "設定"
+  },
+  "退出": {
+    "en": "Quit",
+    "zh-Hant": "結束"
+  },
+  "通知区域": {
+    "en": "Notification Area",
+    "zh-Hant": "通知區域"
+  },
+  "重做": {
+    "en": "Redo",
+    "zh-Hant": "重做"
+  },
+  "预览卡片附件": {
+    "en": "Preview the card's attachments",
+    "zh-Hant": "預覽卡片附件"
+  }
+}
